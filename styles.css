@@ -1,0 +1,27 @@
+body {
+	overflow-x: hidden;
+	background-color: #f4f4f4;
+}
+
+img {
+	width: 100%;
+}
+
+.summer-promo-wrap {
+	height: 25vh;
+}
+
+.gallery-item:hover {
+	opacity: 0.8;
+}
+
+.footer-link:hover {
+	color: #fff !important;
+	transition: 0.25s color ease-in-out;
+}
+
+@media screen and (min-width: 992px) {
+	.about-us-img {
+		width: 50% !important;
+	}
+}
